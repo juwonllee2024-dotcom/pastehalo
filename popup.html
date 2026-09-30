@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PasteHalo</title>
+    <style>
+      :root { color-scheme: light; font-family: system-ui, sans-serif; }
+      body { width: 300px; margin: 0; padding: 18px; color: #27324a; background: #fffdf5; }
+      h1 { margin: 0 0 6px; font-size: 21px; }
+      p { margin: 0 0 14px; line-height: 1.45; }
+      button { width: 100%; border: 0; border-radius: 9px; padding: 11px 12px; cursor: pointer; background: #27324a; color: white; font-weight: 700; }
+      #status { min-height: 20px; font-size: 12px; margin-top: 10px; }
+      #status[data-error="true"] { color: #a33a2b; }
+      .note { font-size: 11px; color: #5f6b82; margin-top: 12px; }
+    </style>
+  </head>
+  <body>
+    <h1>PasteHalo</h1>
+    <p>See suspicious secrets before they enter the active tab.</p>
+    <button id="enable" type="button">Enable on this tab</button>
+    <p id="status" role="status" aria-live="polite"></p>
+    <p class="note">Local only. No clipboard history. No network. Never sends.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "PasteHalo",
+  "version": "0.1.0",
+  "description": "Review suspicious secrets before text enters a browser chat.",
+  "minimum_chrome_version": "114",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "PasteHalo",
+    "default_popup": "popup.html"
+  }
+}

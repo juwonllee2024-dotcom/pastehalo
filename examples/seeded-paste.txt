@@ -1,0 +1,3 @@
+# Safe demo input. These are fake values; never replace them with real secrets.
+OPENAI_API_KEY=sk-proj-123456789012345678901234
+Authorization: Bearer abcdefghijklmnopqrstuvwxyz123456
